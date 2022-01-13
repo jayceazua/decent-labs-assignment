@@ -1,5 +1,5 @@
 {
-  "name": "name...",
+  "name": "decent-labs-assignment",
   "version": "0.1.0",
   "description": "Creators upload images and get upvoted based on tips",
   "author": "jayce azua",
@@ -23,7 +23,7 @@
     "truffle": "5.0.5",
     "web3": "1.0.0-beta.55"
   },
-  "homepage": "https://decentlabs.io",
+  "homepage": "https://jayceazua.github.io/decent-labs-assignment",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
