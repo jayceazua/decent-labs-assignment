@@ -36,12 +36,12 @@ contract DecentFans {
     function uploadImage(string memory _imgHash, string memory _description)
         public
     {
+        // Make sure uploader address exists
+        require(msg.sender != address(0));
         // Make sure the image hash exists
         require(bytes(_imgHash).length > 0);
         // Make sure image description exists
         require(bytes(_description).length > 0);
-        // Make sure uploader address exists
-        require(msg.sender != address(0));
 
         // Increment image id
         imageCount++;
